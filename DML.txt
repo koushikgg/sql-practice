@@ -1,0 +1,21 @@
+dml:
+data manupulation language
+it is used to manupulate the data within existing data
+
+in dml we have:
+1. select
+2. insert
+3. update
+4. delete
+
+1. select
+it is used to get details from the table
+
+2. insert
+it is usedt fetch the row to table
+
+3. update
+it is used to update the existing data 
+
+4. delete
+it is used to remove rows from the table
