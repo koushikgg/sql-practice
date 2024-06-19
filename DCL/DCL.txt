@@ -1,0 +1,13 @@
+dcl
+data control language
+DCL commands are used to assign permission to the users to perform a different task
+
+we have 2 commands in dcl:
+1. Grant
+2. Revoke
+
+1. Grant
+ used to give security / privileges to the data in database
+
+2. Revoke
+ used to remove security / privileges to the data in database
