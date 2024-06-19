@@ -1,0 +1,24 @@
+ddl:
+ddl commands are used to define , alter and manage datbase schema objects such as table and views
+
+in  ddl we have:
+1. create
+2. alter
+3. drop
+4. truncate
+5. rename
+
+1.create
+used to create a new datbase objects(ex tables index)
+
+2. alter
+used to modify an existing database objects
+
+3. drop
+used to delete an eixting database objects
+
+4. truncate
+used to delete all rows in fromm a table but the table structure reamins
+
+5. rename
+used to rename an existing database objects
