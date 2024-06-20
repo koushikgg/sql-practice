@@ -1,0 +1,30 @@
+functions:
+it is a set of code which accept arguments and perform some opertion and results some result.
+
+we have these type of functions:
+1. agregate functions
+2. scaler functions
+
+1.agregate functions
+this will take multiple input and return us a single output 
+ex:count, sum, avg, min, max
+
+2. scaler functions
+this will take only single input and return us single output
+ex: upper, lower, concat, substring, round
+
+
+user defined functions:
+this is created by the user it is a set of code that perform some operation based on input and invoked when it called.
+syntax:
+create function function_name(parameter_1)
+returns return_type
+language plpgsql
+as &&
+begin 
+
+function--body
+return return_value
+
+end;
+$$;
