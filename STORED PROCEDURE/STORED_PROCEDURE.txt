@@ -1,0 +1,17 @@
+stored procedure:
+Stored procedures in PostgreSQL are a set of SQL statements that are stored in the database
+and can be executed by calling them.
+
+uses:
+They help in encapsulating business logic within the database,
+promoting code reuse and 
+improving performance
+
+syntax:
+create procedure insert_values(value_1 numeric,value_2 varchar(20))
+language plpgsql
+AS $$
+begin 
+insert into table_name (column_1 , column_2) values (value_1,value_2);
+end;
+$$;
