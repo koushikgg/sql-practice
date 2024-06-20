@@ -1,0 +1,41 @@
+joins:
+joins is ca clause where it used to combine rowa from two or more tables bsed on related column.
+
+we have 4 types of joins:
+1. inner join
+2. left join
+3. right join
+4. full join
+
+1. inner join
+inner join will result us the matched rows from the both tables
+syntax:
+SELECT columns
+FROM table1
+INNER JOIN table2
+ON table1.common_column = table2.common_column;
+
+
+2. left join 
+left join will return us the matched rows from the rigth table and all row in the left and right empty side will be null  
+syntax:
+SELECT columns
+FROM table1
+LEFT JOIN table2
+ON table1.common_column = table2.common_column;
+
+3. right join 
+right join will return us the matched rows from the left table and all row in the right and left empty side will be null
+syntax:
+SELECT column
+FROM table1
+RIGHT JOIN table2
+ON table1.common_column = table2.common_column;
+
+4. full join
+it is combine of both right left join it return us the matched rows and also returnus the remaining rows from the left and right table
+syntax:
+SELECT column
+FROM table1
+FULL JOIN table2
+ON table1.common_column = table2.common_column;
