@@ -1,0 +1,28 @@
+subqueries :
+it is known as inner query , nested query or query within query 
+this can be appiled in various places in psql
+1. where
+2. select
+3. from
+
+
+1. select
+syntax:
+SELECT name,
+       (SELECT department_name
+        FROM departments
+        WHERE departments.id = employees.department_id) AS department
+FROM employees;
+
+
+2. where
+syntax:
+SELECT name
+FROM employees
+WHERE department_id IN (SELECT id
+                        FROM departments
+                        WHERE department_name = 'Sales');
+
+
+
+
