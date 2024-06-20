@@ -1,0 +1,60 @@
+constraints :
+these are the rules appiied on data in tables to maintain data integrity 
+
+these are the below type of constraints:
+1. NOT NULL
+this will ensure no empty value will be given while inserting values.
+syntax:
+CREATE TABLE table_name (
+    column_name (datatype) NOT NULL
+);
+
+
+
+2. unique
+this one will ensure that every time while inserting the values the unique column should be unique value.
+synatx:
+CREATE TABLE table_name (
+    column_name (datatype) UNIQUE
+);
+
+
+
+3. primary key
+this is the column which is uniquem represntation of that table.
+synatx:
+CREATE TABLE table_name (
+    column_id (datatype) primary key
+);
+
+
+
+4. foreign key 
+this is columnn where we create relation between two tables.
+synatx:
+CREATE TABLE table1_name (
+    column_id (datatype) primary key
+);
+
+CREATE TABLE table2_name (
+    column_id (datatype),
+    foreign key (column_id) references table1_name(column_id)
+);
+
+
+
+5. check
+this will ensure that value in the column meets the condition
+synatx:
+CREATE TABLE table_name (
+    column_age (datatype) (age>18)condition;
+);
+
+
+
+6. default
+if user failes to give the value to that row the default will provode the value.
+synatx:
+CREATE TABLE table_name (
+    column_id (datatype) default default_value
+);
