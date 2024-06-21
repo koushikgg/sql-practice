@@ -1,0 +1,11 @@
+TRIGGERS:
+    triggers are the special user defined functions that are executed or triggered in certain events.
+these evens include update ,delete and insert.
+
+
+the key components of triggers are:
+1. trigger event :
+ events are :- update, insert and delete.
+
+2. triger time:
+ time:- before, after and instead of. 
