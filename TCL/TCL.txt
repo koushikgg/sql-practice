@@ -1,0 +1,30 @@
+TCL:
+transction control language
+it used to manage the transction in the database.
+
+
+the tcl commands are:
+1. BEGIN
+2. COMMIT
+3. ROLLBACK
+4. SAVEPOINT
+5. RELEASE SAVEPOINT
+6. ROLLBACK TO SAVEPOINT
+
+1. BEGIN
+it is used to start the transction
+
+2. COMMIT
+it is used to save the changes amde in the transction
+
+3. ROLLBACK
+it is used to undo the  changes made in the current transction
+
+4. SAVEPOINT
+it is used to create a point within the transction that used to rollabck later.
+
+5. RELEASE SAVEPOINT
+it is used to remove the SAVEPOINT.
+
+6.ROLLBACK TO SAVEPOINT
+it is used to go to the changes made previosly or used to undo to the specific SAVEPOINT
