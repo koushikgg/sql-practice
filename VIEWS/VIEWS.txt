@@ -1,0 +1,16 @@
+views:
+views are esentially virtual table that are not pysically stored the database.
+it is genrated dynamicaly when they queried
+
+features:
+1. simplicity:
+it can simplify the complex queries
+
+2. vietual table
+it doesnot store the rable in databse . it stores the query that accessed when the view is accessed.
+
+3. security
+it resirct the data and hide it shows only the necessary data to the user.
+
+4. reusablity
+once the table created it can be used multiple times
