@@ -1,0 +1,9 @@
+cursor:
+cursor is a databse object used to retrive and manipulate each row one at a times
+
+types of cursor:
+1. implicit cursor
+2. explicit cursor
+
+features:
+it is useful to handle large data eficiently
